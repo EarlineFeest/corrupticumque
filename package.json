@@ -1,0 +1,58 @@
+{
+  "name": "corrupticumque",
+  "version": "1.0.0",
+  "description": "A lightweight Dependency Injection library. Using es6 and other features, remove unnecessary concepts, easy and convenient to use.",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "files": [
+    "utils.js",
+    "utils.d.ts",
+    "react.js",
+    "react.d.ts",
+    "lib/**/*.js",
+    "**/*.d.ts",
+    "dist"
+  ],
+  "ava": {
+    "files": [
+      "test/*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EarlineFeest/corrupticumque.git"
+  },
+  "author": "JedidiahJakubowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EarlineFeest/corrupticumque.git/issues"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.12"
+  },
+  "keywords": [
+    "di",
+    "ts",
+    "ioc",
+    "iure"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.3.4",
+    "@types/co": "^4.6.2",
+    "@types/node": "^11.9.5",
+    "@types/react": "^16.x",
+    "@types/react-test-renderer": "^16.x",
+    "ava": "^3.7.1",
+    "co": "^4.6.0",
+    "coveralls": "^3.1.0",
+    "nyc": "^15.0.1",
+    "react": "^16.x",
+    "react-test-renderer": "^16.x",
+    "rimraf": "^3.0.2",
+    "tslint": "5.13.0",
+    "typescript": "^3",
+    "webpack": "^4.29.5"
+  }
+}
